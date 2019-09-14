@@ -1,3 +1,5 @@
+  //Binary to decimal converter
+
 #include<iostream>
 #include<string>
 #include<cmath>
@@ -24,7 +26,7 @@ class BIN_DEC
       }
     }
   }
-  void convert(void)
+  void convert1(void)
   {
      int i,power,sum=0,j;
      check();
@@ -51,6 +53,6 @@ int main()
 {
   BIN_DEC obj;
   obj.getdata();
-  obj.convert();
+  obj.convert1();
   return 0;
 }
