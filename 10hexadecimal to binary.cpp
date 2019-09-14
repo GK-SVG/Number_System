@@ -1,3 +1,5 @@
+     //Hexadecimal to binary converter
+
 #include<iostream>
 #include<cmath>
 #include<sstream>
@@ -9,12 +11,13 @@ class HEX_BIN
   string s;
   int sum=0,cou=1;
   public:
+	    // getdata function get data
   void getdata (void)
   {
     cout<<"\n enter a hexadecimal number : ";
     cin>>s;
   }
-
+   // convert1 function convert hexadecimal to decimal
   void convert1(void)
   {
     int i,j=0,k,power;
@@ -59,7 +62,7 @@ class HEX_BIN
     }
     //cout<<"\n cou = "<<cou;
    }
-
+                      // convert2 function convert decimal to binary
    void convert2(void)
   {
     int i,j;
