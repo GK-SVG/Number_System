@@ -1,9 +1,13 @@
+//NUMBER SYSTEM PROGRAM WRITTEN BY GAUTAM (MITRC) 
+
 #include<iostream>
 #include<cmath>
 #include<stdlib.h>
 #include<sstream>
 #include<string.h>
 using namespace std;
+
+//ALL FUNCTIONS ARE DECORAID HERE
 
 void binTOdec(void);
 void octTOdec(void);
